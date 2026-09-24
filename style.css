@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: #111827;
+    padding: 18px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: #111827;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-small {
+    color: #60a5fa;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.hero h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+
+/* ================= SECTIONS ================= */
+
+.section {
+    padding: 80px 0;
+}
+
+.alternate {
+    background: #e9eef7;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #2563eb;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 45px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.info-box strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info-box span {
+    color: #555;
+}
+
+
+/* ================= EDUCATION =================
